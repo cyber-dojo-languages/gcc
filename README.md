@@ -1,3 +1,3 @@
-# gcc 7.2
+# gcc 7.3.0
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/gcc-7.2.svg?branch=master)
+![Build Status](https://travis-ci.org/cyber-dojo-languages/gcc-7.3.0.svg?branch=master)

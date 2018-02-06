@@ -1,4 +1,4 @@
-FROM  cyberdojofoundation/gplusplus:7.2
+FROM  gcc:latest
 LABEL maintainer=jon@jaggersoft.com
 
-RUN gcc --version | grep -q 7.2
+RUN gcc --version | grep -q 7.3.0
