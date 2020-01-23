@@ -1,0 +1,5 @@
+FROM gcc:latest
+LABEL maintainer=jon@jaggersoft.com
+
+RUN apt-get install --yes python-pip \
+ && pip install gcovr
