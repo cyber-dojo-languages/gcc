@@ -1,5 +1,4 @@
-FROM gcc:latest
+FROM alpine:3.12
 LABEL maintainer=jon@jaggersoft.com
 
-RUN apt-get install --yes python-pip \
- && pip install gcovr
+RUN apk add --no-cache gcc g++ musl-dev make gcovr
