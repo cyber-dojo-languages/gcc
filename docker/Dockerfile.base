@@ -1,5 +1,5 @@
-FROM gcc:latest
+FROM alpine:latest
 LABEL maintainer=jon@jaggersoft.com
 
-RUN apt-get install --yes python-pip \
- && pip install gcovr
+COPY install.sh .
+RUN ./install.sh && rm ./install.sh
