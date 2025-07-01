@@ -21,5 +21,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build image, test it, push it dockerhub
+      - name: Build image, test it, push to registry
         run: ./pipe_build_up_test.sh
