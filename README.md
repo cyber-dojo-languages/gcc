@@ -1,5 +1,5 @@
-[![CircleCI](https://circleci.com/gh/cyber-dojo-languages/gcc.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/gcc)
+[![Github Action (master)](https://github.com/cyber-dojo-languages/gcc/actions/workflows/main.yml/badge.svg)](https://github.com/cyber-dojo-languages/gcc/actions)
 
-## image_name="cyberdojofoundation/gcc"
+## image_name="ghcr.io/cyber-dojo-languages/gcc"
 
 ![cyber-dojo.org home page](https://github.com/cyber-dojo/cyber-dojo/blob/master/shared/home_page_snapshot.png)
